@@ -35,3 +35,33 @@ El conjunto de datos proviene de registros meteorológicos históricos proporcio
 ```bash
 git clone https://github.com/nicoalexanderdev/AUS-Streamlit.git
 cd AUS-Streamlit
+```
+
+2. Instala los requerimientos:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Ejecuta la app:
+
+```bash
+streamlit run app.py
+```
+**Asegúrate de tener Python 3.8+ y Streamlit instalado.**
+
+
+## 🛠️ Tecnologías utilizadas
+
+- Streamlit
+- Pandas
+- Matplotlib
+- Seaborn
+- Plotly
+
+
+## 🙌 Autor
+
+- Desarrollado por Nicolás Oses Pérez – [LinkedIn](https://www.linkedin.com/in/nicolas-oses/)
+- Estudiante de Ingeniería en Informática | Mención Ciencia de Datos
+- DuocUC – 2025
