@@ -37,18 +37,29 @@ git clone https://github.com/nicoalexanderdev/AUS-Streamlit.git
 cd AUS-Streamlit
 ```
 
-2. Instala los requerimientos:
+2. Crea y activa el entorno virtual con uv:
 
 ```bash
-pip install -r requirements.txt
+uv venv .venv
+source .venv/bin/activate        # En Linux/macOS
+.\.venv\Scripts\activate         # En Windows
+```
+
+3. Instala las dependencias definidas en pyproject.toml
+
+```bash
+uv pip install -r uv.lock
 ```
 
 3. Ejecuta la app:
 
 ```bash
-streamlit run app.py
+streamlit run streamlit_app/main.py
 ```
-**Asegúrate de tener Python 3.8+ y Streamlit instalado.**
+**✅ Asegúrate de tener Python 3.8+ y uv instalado. Puedes instalar uv con:**
+```bash
+pip install uv
+```
 
 
 ## 🛠️ Tecnologías utilizadas
