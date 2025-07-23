@@ -20,18 +20,15 @@ with component1:
     
 
     st.subheader("Metricas")
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2 = st.columns(2)
     with col1:
         st.metric(label="Total Rows", value=df.shape[0])
+        st.metric(label="Total Localidades", value=df['Location'].nunique())
 
     with col2:
         st.metric(label="Total Columns", value=df.shape[1])
-
-    with col3:
-        st.metric(label="Total Localidades", value=df['Location'].nunique())
-
-    with col4:
-        st.metric(label="Total Nulos", value=df.isna().sum().sum())
+        st.metric(label="Total Datos Nulos", value=df.isna().sum().sum())
+        
 
 
     st.dataframe(df)
