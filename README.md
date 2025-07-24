@@ -54,7 +54,7 @@ uv pip install -r uv.lock
 3. Ejecuta la app:
 
 ```bash
-streamlit run streamlit_app/main.py
+uv run streamlit run streamlit_app/main.py
 ```
 **✅ Asegúrate de tener Python 3.8+ y uv instalado. Puedes instalar uv con:**
 ```bash
