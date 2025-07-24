@@ -1,5 +1,9 @@
 # 🌤️ AUS-Streamlit – Explorador del Clima en Australia
 
+
+<img width="958" height="456" alt="AUS-weather-app" src="https://github.com/user-attachments/assets/fed28ff3-1ab7-4d41-83ec-247d93f77286" />
+
+
 Este proyecto es una aplicación web interactiva desarrollada con **Streamlit** que permite explorar datos climáticos históricos de diferentes regiones de Australia. Está orientado tanto a fines educativos como exploratorios en el contexto del análisis de datos.
 
 ## 🔍 Descripción
