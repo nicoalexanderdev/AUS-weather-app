@@ -33,8 +33,8 @@ El conjunto de datos proviene de registros meteorológicos históricos proporcio
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/nicoalexanderdev/AUS-Streamlit.git
-cd AUS-Streamlit
+git clone https://github.com/nicoalexanderdev/AUS-weather-app.git
+cd AUS-weather-app
 ```
 
 2. Crea y activa el entorno virtual con uv:
@@ -69,6 +69,7 @@ pip install uv
 - Matplotlib
 - Seaborn
 - Plotly
+- Scikit-Learn
 
 
 ## 🙌 Autor
